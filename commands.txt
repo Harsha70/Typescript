@@ -1,0 +1,40 @@
+tsc index.ts
+tsc --init
+tsc -w
+
+---------------------------------
+primitive types in JavaScript
+
+string
+null
+number
+undefined
+symbol
+boolean
+bigint
+
+------------------------------
+            final object        child class     parent class
+public            pass            pass            pass
+protected         fail            pass            pass
+private           fail            fail            pass
+
+-----------------------------
+cannot create an instance of an abstract class (new)
+thie idea of abstract classes is to inherit
+- we must use all the abstract property from parent class to child class
+
+
+all the interface property should be public
+
+
+// types can not have same typename but can in interface
+// ----------------------------------------- abstract class vs interface
+//  abstract class methods automatically available in child class because we extends
+// in interface will have call signature and must implement in class
+
+// classes can implement multiple interfaces but can only inheret one parent class
+
+// abstract classes can have static method buit interface cannot have a static
+
+difference between arrow and function is this binding
